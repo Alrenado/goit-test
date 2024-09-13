@@ -58,6 +58,11 @@ body{
     box-sizing: border-box;
 }
 
+.main-page__logo {
+    align-self:flex-start;
+    padding-top: 32px;
+}
+
 .wrapper{
     margin: auto;
     display: flex;
