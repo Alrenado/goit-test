@@ -117,8 +117,11 @@ body{
 }
 
 .facts-wrapper__item{
-    /*width: calc((100% / 3) - (24px * 2) /3);*/
-    
+    width: calc((100% / 3) - (24px * 2) /3);
+}
+
+.facts-wrapper__item-img{
+    width: 374px;
 }
 
 .facts-wrapper__item-title{
