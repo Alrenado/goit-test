@@ -46,6 +46,32 @@ body{
     margin: 0;
 }
 
+.btn {
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Main page */
+
 .main-page{
     width: 100%;
     background: linear-gradient(270deg, #a5deff 0%, #fcfefe 100%);
@@ -89,16 +115,10 @@ body{
 }
 
 .main-page__btn{
-    background: var(--orange);
-    color: var(--white);
-    border: none;
-    font-family: "Montserrat", sans-serif;
-
-    border-radius: 8px;
-    padding: 12px 24px;
-    width: 172px;
-    height: 48px;
+    
 }
+
+/* Facts */
 
 .facts{
     padding-top: 48px;
@@ -132,4 +152,69 @@ body{
 .facts-wrapper__item-descr{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* Form */
+
+.form{
+    width: 100%;
+    background: linear-gradient(270deg, #a5deff 0%, #fcfefe 100%);
+
+    padding: 80px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container{
+    background: var(--white);
+    border-radius: 40px;
+    padding: 32px 60px 60px;
+    box-sizing: border-box;
+}
+
+.form-container__trezub{
+    margin-bottom: 32px;
+}
+
+.form-container__title{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.form-container__descr{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-container__field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-container__field-name{
+    margin-bottom: 24px;
+}
+
+.form-container__field-email{
+    margin-bottom:48px;
+}
+
+.form-container__field-label{
+    margin-bottom: 8px;
+}
+
+.form-container__field-input{
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+    padding: 24px 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-container__btn{
+    
 }
