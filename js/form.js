@@ -64,7 +64,6 @@ form.addEventListener('submit', e => {
     setTimeout(() => {
         launchBtn.style.opacity = '1';
         launchBtn.setAttribute('enable', true);
-        launchBtn.style.opacity = '0';
         clearFormFields();
     }, 4000)
 })
