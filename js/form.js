@@ -57,7 +57,7 @@ form.addEventListener('submit', e => {
     console.log('Email користувача: ', userEmailField.value);
 
     launchBtn.setAttribute('disabled', true);
-    launchBtn.style.opacity = '0.7';
+    launchBtn.style.opacity = '0.7';    
 
     showGooseAnim();
 
